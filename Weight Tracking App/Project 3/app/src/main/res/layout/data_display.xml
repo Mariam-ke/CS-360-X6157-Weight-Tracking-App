@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_view">
+
+    <GridLayout
+        android:id="@+id/edit_button_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:useDefaultMargins="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buttonEditWeight"
+            android:gravity="center"
+            android:text="@string/edit_weight"
+            android:textSize="12sp"
+            android:onClick="editRow"/>
+
+        <Button
+            android:id="@+id/buttonDeleteRow"
+            android:onClick="delRow"
+            android:gravity="center"
+            android:text="@string/delete_data"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/buttonDone"
+            android:onClick="openMain"
+            android:gravity="center"
+            android:text="@string/done"
+            android:textSize="12sp" />
+
+    </GridLayout>
+
+    <!--need the table to be able to scroll if it's long-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_button_grid">
+
+        <TableLayout
+            android:id="@+id/editTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center"
+            android:stretchColumns="*"
+            android:measureWithLargestChild="true">
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
