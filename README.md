@@ -1,11 +1,11 @@
 # CS-360-X6157-Weight-Tracking-App
 CS 360 Weight Tracking App
 
-### Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address? /br
+### Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 <p>The weight tracking app I developed addresses the needs of individuals aiming to lose weight, maintain weight, or track weight for medical reasons. The app enables users to monitor their daily weight, set a goal weight, and receive notifications upon reaching that goal. The primary objective is to assist users in achieving their weight-related goals by providing a user-friendly interface and essential features.</p>
 
 ### What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
-<p>To cater to these user needs and create a user-centered UI, the app required several screens and features. These include a login screen for users to access their personal data, a dashboard screen to offer a quick overview of user progress, an "add weight" screen to enable users to input their daily weight and goal weight, and a notifications screen to set up and receive goal achievement notifications. /br
+<p>To cater to these user needs and create a user-centered UI, the app required several screens and features. These include a login screen for users to access their personal data, a dashboard screen to offer a quick overview of user progress, an "add weight" screen to enable users to input their daily weight and goal weight, and a notifications screen to set up and receive goal achievement notifications.
 
 My UI designs prioritized simplicity, intuitive navigation, and clear visual cues, ensuring users could easily input data, track progress, and receive notifications. This user-centric approach contributed to the success of the designs by enhancing user understanding and engagement.</p>
 
